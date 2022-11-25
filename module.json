@@ -1,51 +1,44 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "Coc7-ko",
+  "title": "Translation: Korean [The Call of Cthulhu 7th (Unofficial)]",
+  "description": "크툴루의 부름 7판(비공식) 시스템의 번역 모듈입니다.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 10,
-    "verified": 10,
+    "verified": 10.290,
     "maximum": 11
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Crownel(jbblily)",
+      "discord": "Crownel#4367"
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "requires": [{
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+    }]
   },
   "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
+    "scripts/babele-register.js"
   ],
   "styles": [
     "styles/module.css"
   ],
   "languages": [
     {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
+      "lang": "ko",
+      "name": "Korean",
+      "path": "languages/ko.json"
     }
   ],
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
   "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+  "readme": "README.md"
 }
