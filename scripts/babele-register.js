@@ -6,4 +6,4 @@ Hooks.once('init', () => {
 			dir: 'compendium'
 		});
     }
-})
+});
