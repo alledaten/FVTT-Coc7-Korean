@@ -980,7 +980,7 @@
 
 
   "CoC7.Maximize": "최대화",
-  "CoC7.Summarize": "요약",
+  "CoC7.Summarize": "최소화",
   "CoC7.ClearAllConditions": "모든 조건 초기화",
 
   "CoC7.UnableToInteractWithChatCard": "이 메시지와 상호 작용할 수 없습니다. 변경이 필요한 경우 수호자에게 요청해 옵션을 선택하세요.",

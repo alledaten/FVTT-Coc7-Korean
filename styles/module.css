@@ -39,7 +39,7 @@
 .defaultFont,
 .sheetV2,
 .sheetV2 .coc7.sheet.actor.temp-retro-compat .bio-section .bio-section-title {
-   font-family: 'Eoe_Zno_L';
+   font-family: 'Eoe_Zno_L' !important;
 }
 .cursive,
 .coc7 nav,
