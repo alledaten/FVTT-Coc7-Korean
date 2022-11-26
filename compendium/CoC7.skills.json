@@ -1,8 +1,8 @@
 {
 	"label": "기능",
 	"mapping": {
-		"skillname": "data.system.skillName",
-		"specialization": "data.system.specialization"
+			"skillname": "system.skillName",
+			"specialization": "system.specialization"
 	},
 	"entries": {
 		"Accounting": {
@@ -32,6 +32,7 @@
 		},
 		"Art/Craft (Acting)": {
 			"name": "예술/공예 (연기)",
+			"specialization": "예술/공예",
 			"skillname": "예술/공예 (연기)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
@@ -43,16 +44,19 @@
 		},
 		"Art/Craft (Fine Art)": {
 			"name": "예술/공예 (미술)",
+			"specialization": "예술/공예",
 			"skillname": "예술/공예 (미술)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Art/Craft (Forgery)": {
 			"name": "예술/공예 (위조)",
+			"specialization": "예술/공예",
 			"skillname": "예술/공예 (위조)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Art/Craft (Photography)": {
 			"name": "예술/공예 (사진)",
+			"specialization": "예술/공예",
 			"skillname": "예술/공예 (사진)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
@@ -148,86 +152,103 @@
 		},
 		"Fighting (Axe)": {
 			"name": "근접전 (도끼)",
+			"specialization": "근접전",
 			"skillname": "근접전 (도끼)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Fighting (Brawl)": {
 			"name": "근접전 (격투)",
+			"specialization": "근접전",
 			"skillname": "근접전 (격투)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Fighting (Chainsaw)": {
 			"name": "근접전 (동력톱)",
+			"specialization": "근접전",
 			"skillname": "근접전 (동력톱)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Fighting (Flail)": {
 			"name": "근접전 (도리깨)",
+			"specialization": "근접전",
 			"skillname": "근접전 (도리깨)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Fighting (Garrote)": {
 			"name": "근접전 (가롯테)",
+			"specialization": "근접전",
 			"skillname": "근접전 (가롯테)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Fighting (Spear)": {
 			"name": "근접전 (창)",
+			"specialization": "근접전",
 			"skillname": "근접전 (창)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Fighting (Sword)": {
 			"name": "근접전 (도검)",
+			"specialization": "근접전",
 			"skillname": "근접전 (도검)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Fighting (Throw)": {
 			"name": "근접전 (투척)",
+			"specialization": "근접전",
 			"skillname": "근접전 (투척)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Fighting (Whip)": {
 			"name": "근접전 (채찍)",
+			"specialization": "근접전",
 			"skillname": "근접전 (채찍)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Firearms (Artillery)": {
 			"name": "사격 (포격)",
+			"specialization": "사격",
 			"skillname": "사격 (포격)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Firearms (Bow)": {
 			"name": "사격 (활)",
+			"specialization": "사격",
 			"skillname": "사격 (활)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Firearms (Flamethrower)": {
 			"name": "사격 (화염방사기)",
+			"specialization": "사격",
 			"skillname": "사격 (화염방사기)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Firearms (Handgun)": {
 			"name": "사격 (권총)",
+			"specialization": "사격",
 			"skillname": "사격 (권총)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Firearms (Heavy Weapons)": {
 			"name": "사격 (중화기)",
+			"specialization": "사격",
 			"skillname": "사격 (중화기)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Firearms (Machine Gun)": {
 			"name": "사격 (기관단총)",
+			"specialization": "사격",
 			"skillname": "사격 (기관단총)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Firearms (Rifle/Shotgun)": {
 			"name": "사격 (라이플/산탄총)",
+			"specialization": "사격",
 			"skillname": "사격 (라이플/산탄총)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Firearms (Submachine Gun)": {
 			"name": "사격 (기관단총)",
+			"specialization": "사격",
 			"skillname": "사격 (기관단총)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
@@ -384,66 +405,79 @@
 		},
 		"Science (Astronomy)": {
 			"name": "과학 (천문학)",
+			"specialization": "과학",
 			"skillname": "과학 (천문학)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Science (Biology)": {
 			"name": "과학 (생물학)",
+			"specialization": "과학",
 			"skillname": "과학 (생물학)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Science (Botany)": {
 			"name": "과학 (식물학)",
+			"specialization": "과학",
 			"skillname": "과학 (식물학)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Science (Chemistry)": {
 			"name": "과학 (화학)",
+			"specialization": "과학",
 			"skillname": "과학 (화학)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Science (Cryptography)": {
 			"name": "과학 (암호학)",
+			"specialization": "과학",
 			"skillname": "과학 (암호학)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Science (Engineering)": {
 			"name": "과학 (공학)",
+			"specialization": "과학",
 			"skillname": "과학 (공학)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Science (Forensics)": {
 			"name": "과학 (수사과학)",
+			"specialization": "과학",
 			"skillname": "과학 (수사과학)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Science (Geology)": {
 			"name": "과학 (지질학)",
+			"specialization": "과학",
 			"skillname": "과학 (지질학)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Science (Mathematics)": {
 			"name": "과학 (수학)",
+			"specialization": "과학",
 			"skillname": "과학 (수학)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Science (Meteorology)": {
 			"name": "과학 (기상학)",
+			"specialization": "과학",
 			"skillname": "과학 (기상학)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Science (Pharmacy)": {
 			"name": "과학 (약학)",
+			"specialization": "과학",
 			"skillname": "과학 (약학)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Science (Physics)": {
 			"name": "과학 (물리학)",
+			"specialization": "과학",
 			"skillname": "과학 (물리학)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Science (Zoology)": {
 			"name": "과학 (동물학)",
+			"specialization": "과학",
 			"skillname": "과학 (동물학)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},

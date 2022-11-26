@@ -21,6 +21,11 @@
         "id": "babele",
         "type": "module",
         "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+    }],
+    "systems": [{
+      "id": "CoC7",
+      "type": "system",
+      "manifest": "https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/releases/latest/download/system.json"
     }]
   },
   "esmodules": [
