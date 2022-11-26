@@ -1,71 +1,18 @@
-![](https://img.shields.io/badge/Foundry-v0.8.6-informational)
-<!--- Downloads @ Latest Badge -->
-<!--- replace <user>/<repo> with your username/repository -->
-<!--- ![Latest Release Download Count](https://img.shields.io/github/downloads/<user>/<repo>/latest/module.zip) -->
+# 크툴루의 부름 7판 (비공식) 번역 모듈
 
-<!--- Forge Bazaar Install % Badge -->
-<!--- replace <your-module-name> with the `name` in your manifest -->
-<!--- ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2F<your-module-name>&colorB=4aa94a) -->
+Foundry VTT의 크툴루의 부름 7판 시스템을 번역하는 모듈입니다.
 
+**다운로드** : https://github.com/jbblily/FVTT-Coc7-Korean/releases/latest/download/module.json
 
-# How to use this Template to create a versioned Release
+이 번역모듈을 사용하기 위해서는 다음과 같은 모듈이 필요합니다.
+- Babele 모듈: https://gitlab.com/riccisi/foundryvtt-babele
+- Call of Cthulhu 7th edition (Unofficial) 시스템: https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT
 
-1. Open your repository's releases page.
+# 사용방법
+1. 월드에서 Translation: Korean [Call of Cthulhu 7th Unofficial] 모듈을 활성화하세요.
+2. 컴펜디엄 탭에 들어가면 기능이 번역되어 있는 것을 확인할 수 있습니다. '기능' 컴펜디엄에 우클릭하여 '모든 컨텐츠 불러오기'해서 월드에 복사하세요.
+3. 캐릭터 시트에 원하는 기능을 끌어다놓으면서 캐릭터를 만드세요!
+4. 이미 만들어져 있는 캐릭터 시트의 기능이 영어로 되어있을 경우, 캐릭터 시트 상단의 'Translate' 버튼을 누르면 기능이 한글화됩니다.
 
-![Where to click to open repository releases.](https://user-images.githubusercontent.com/7644614/93409301-9fd25080-f864-11ea-9e0c-bdd09e4418e4.png)
-
-2. Click "Draft a new release"
-
-![Draft a new release button.](https://user-images.githubusercontent.com/7644614/93409364-c1333c80-f864-11ea-89f1-abfcb18a8d9f.png)
-
-3. Fill out the release version as the tag name.
-
-If you want to add details at this stage you can, or you can always come back later and edit them.
-
-![Release Creation Form](https://user-images.githubusercontent.com/7644614/93409543-225b1000-f865-11ea-9a19-f1906a724421.png)
-
-4. Hit submit.
-
-5. Wait a few minutes.
-
-A Github Action will run to populate the `module.json` and `module.zip` with the correct urls that you can then use to distribute this release. You can check on its status in the "Actions" tab.
-
-![Actions Tab](https://user-images.githubusercontent.com/7644614/93409820-c1800780-f865-11ea-8c6b-c3792e35e0c8.png)
-
-6. Grab the module.json url from the release's details page.
-
-![image](https://user-images.githubusercontent.com/7644614/93409960-10c63800-f866-11ea-83f6-270cc5d10b71.png)
-
-This `module.json` will only ever point at this release's `module.zip`, making it useful for sharing a specific version for compatibility purposes.
-
-7. You can use the url `https://github.com/<user>/<repo>/releases/latest/download/module.json` to refer to the manifest.
-
-This is the url you want to use to install the module typically, as it will get updated automatically.
-
-# How to List Your Releases on Package Admin
-
-To request a package listing for your first release, go to the [Package Submission Form](https://foundryvtt.com/packages/submit) (accessible via a link at the bottom of the "[Systems and Modules](https://foundryvtt.com/packages/)" page on the Foundry website).
-
-Fill in the form. "Package Name" must match the name in the module manifest.  Package Title will be the display name for the package.  Package URL should be your repo URL.
-![image](https://user-images.githubusercontent.com/36359784/120664263-b49e5500-c482-11eb-9126-af7006389903.png)
-
-
-One of the Foundry staff will typically get back to you with an approval or any further questions within a few days, and give you access to the package admin pages.
-
-Once you have access to the [module admin page](https://foundryvtt.com/admin/packages/package/), you can release a new version by going into the page for your module, scrolling to the bottom, and filling in a new Package Version.
-
-When listing a new version, Version should be the version number you set above, and the Manifest URL should be the manifest __for that specific version__ (do not use /latest/ here).
-![image](https://user-images.githubusercontent.com/36359784/120664346-c4b63480-c482-11eb-9d8b-731b50d70939.png)
-
-> ### :warning: Important :warning:
-> 
-> It is very important that you use the specific release manifest url, and not the `/latest` url here. For more details about why this is important and how Foundry Installs/Updates packages, read [this wiki article](https://foundryvtt.wiki/en/development/guides/releases-and-history).
-
-Clicking "Save" in the bottom right will save the new version, which means that anyone installing your module from within Foundry will get that version, and a post will be generated in the #release-announcements channel on the official Foundry VTT Discord.
-
-
-# FoundryVTT Module
-
-Does something, probably
-
-## Changelog
+# Credit
+MRKB(마론군밤) 님의 [coc7판 번역모듈](https://github.com/MaronKB/CoC7kr)을 기반으로 일부 수정하여 만들었습니다.
