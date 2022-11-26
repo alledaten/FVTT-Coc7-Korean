@@ -514,6 +514,7 @@
 		},
 		"Track (Any)": {
 			"name": "추적 (다양)",
+			"specialization": "추적",
 			"skillname": "추적 (다양)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},

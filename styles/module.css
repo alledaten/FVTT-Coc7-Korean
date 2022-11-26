@@ -22,6 +22,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+   font-family: 'Pretendard-Regular';
+   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
 .coc7.sheet .cash textarea,
 .coc7.sheet .sheet-header,
 .coc7.sheet .sheet-tabs,
@@ -46,6 +52,9 @@
 .sheetV2.character form .container .sheet-header .characteristics .char-box .charac-score,
 .sheetV2.character form .container .sheet-header .characteristics input,
 .sheetV2.character form .container .sheet-body .itemV2 .item-name,
-.sheetV2.character form .container .sheet-body .itemV2 .item-score{
+.sheetV2.character form .container .sheet-body .itemV2 .item-score {
    font-family: 'NEXON Lv1 Gothic OTF' !important;
+}
+.chat-message {
+   font-family: 'Pretendard-Regular';
 }
