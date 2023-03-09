@@ -235,9 +235,9 @@
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Firearms (Machine Gun)": {
-			"name": "사격 (기관단총)",
+			"name": "사격 (기관총)",
 			"specialization": "사격",
-			"skillname": "사격 (기관단총)",
+			"skillname": "사격 (기관총)",
 			"description": "<p>크툴루의 부름 수호자 룰북 참조</p>"
 		},
 		"Firearms (Rifle/Shotgun)": {
